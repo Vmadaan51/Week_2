@@ -5,7 +5,7 @@ public class reverse {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number to be reversed:");
         int num = scanner.nextInt();
-        int revnum = 0;
+        int revnum;
         while (num > 0){
             revnum = num % 10;
             System.out.print(revnum);
