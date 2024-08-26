@@ -6,6 +6,7 @@ public class MultipleOfTen {
         System.out.println("Enter the start of the range: ");
         int start = scanner.nextInt();
         System.out.println("Enter the end of range: ");
+
         int end = scanner.nextInt();
         for(int i = start; i<=end;i++){
             if (i % 10 == 0){

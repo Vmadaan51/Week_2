@@ -12,6 +12,7 @@ public class Fibonacci {
         System.out.println(f);  // Print 0
         System.out.println(s);  // Print 1
 
+
         for (int i = 1; i <= num - 2; i++) {
             int fib = f + s;  // Calculate the next Fibonacci number
             System.out.println(fib);  // Print the new Fibonacci number

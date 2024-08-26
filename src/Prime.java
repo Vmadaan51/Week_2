@@ -7,6 +7,7 @@ public class Prime {
         double num = scanner.nextInt();
         if (num % 1 == 0  && num % num == 0){
             System.out.println("The number is prime");
+
         }
         else System.out.println("The number is not prime");
     }
