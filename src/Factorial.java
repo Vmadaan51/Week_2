@@ -8,6 +8,7 @@ public class Factorial {
         if (num < 0) System.out.println("Please run the program again and enter a positive number");
         else {
             int fact = 1;
+
             for (int i = 1; i <= num; i++) {
                 fact *= i; // fact = fact * i would also work the same way
             }

@@ -9,6 +9,7 @@ public class reverse {
         while (num > 0){
             revnum = num % 10;
             System.out.print(revnum);
+
             num = num/10;
         }
     }

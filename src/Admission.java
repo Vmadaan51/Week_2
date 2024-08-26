@@ -8,6 +8,7 @@ public class Admission {
         for (int i = 1; i <= stud; i++) {
             System.out.println("Enter the name of the student:");
             String name = scanner.next();
+
             System.out.println("Please enter your marks in Mathematics:");
             double math = scanner.nextDouble();
             System.out.println("Please enter your marks in Physics:");

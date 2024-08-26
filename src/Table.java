@@ -8,6 +8,7 @@ public class Table {
         System.out.println("Table of " + num + ": ");
         for (int i=1; i<=10;i++){
             int tab = num * i;
+
             System.out.println( num + " * "+ i + "= " + tab);
         }
     }
